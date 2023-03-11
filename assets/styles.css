@@ -1,0 +1,126 @@
+@font-face {
+font-family: 'Noto Serif SC';
+src: url('local://assets/fonts/NotoSerifSC-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Serif SC';
+  src: url('local://assets/fonts/NotoSerifSC-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  font-size: 30px;
+  font-family: serif, 'Noto Serif SC';
+  /*font-family: serif;*/
+}
+
+p {
+    margin-block-start: 15px;
+    margin-block-end: 15px;
+}
+
+body {
+  margin: 0px;
+  /*border: 1px solid black;*/
+}
+
+h1 {
+  font-size: 50px;
+  text-align: left;
+  margin: 0;
+  padding: 0 0 6px 0;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: left;
+  margin: 0;
+  padding: 6px 0;
+}
+
+h3 {
+  font-size: 35px;
+  text-align: left;
+  margin: 0;
+  padding: 5px 0;
+}
+
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 4px;
+  border: 1px solid black;
+}
+
+code {
+  padding: 3px;
+  border-width:1px;
+  border-style:solid;
+  border-color:black;
+  display: inline-block;
+}
+
+img {
+  width: 100%;
+}
+
+pre {
+  padding: 10px 0;
+}
+
+ul {
+  margin-block-start: 10px;
+  margin-block-end: 10px;
+}
+
+ul.todo-list {
+  list-style-type: none;
+  padding-left: 10px;
+  margin-block: 0;
+}
+
+ol {
+  margin-block-start: 10px;
+  margin-block-end: 10px;
+}
+
+blockquote {
+  margin-block-start: 10px;
+  margin-block-end: 10px;
+  margin-inline: 0px;
+  padding: 0 10px;
+  border-left: 7px solid #8f9499;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.highlight {
+  border-bottom: 6px double;
+  display: inline-block;
+}
+
+.hashtag {
+  padding: 0px 10px;
+  border-radius: 25px;
+  border-width:1px;
+  border-style:solid;
+  border-color:black;
+  display: inline-block;
+}
+
+.link {
+  font-style: italic;
+  text-decoration: underline;
+}
